@@ -1,11 +1,69 @@
+import Image from 'next/image'
+
 export default function Hero() {
   return (
-    <section className="card mb-8">
-      <h1 className="text-3xl font-bold">Technology Exploration Award (TEA)</h1>
-      <p className="mt-4 text-slate-700">The Michigan TEA (in affiliation with NCWIT - Michigan) encourages high school students to connect with technology practitioners, explore career paths, and submit a short reflection about their learning experience. We welcome students of all backgrounds.</p>
-      <div className="mt-6 flex items-center gap-3">
-        <a href="/submit" className="px-4 py-2 bg-sky-600 text-white rounded">Submit an entry</a>
-        <a href="#about" className="text-slate-600 hover:underline">Learn more</a>
+    <section className="relative mb-12 w-full overflow-hidden">
+      <div className="absolute inset-0">
+        <Image src="/HSPC2025 - 18 of 41.jpeg" alt="HSPC 2025 participants" fill style={{objectFit: 'cover'}} priority />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-purple-800/70 to-teal-700/60" />
+      </div>
+
+      <div className="w-full relative z-10 py-24 md:py-32 px-6 lg:px-12 xl:px-16">
+        <div className="max-w-5xl mx-auto text-center text-white">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            Michigan Technology
+            <br />
+            <span className="bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
+              Exploration Award
+            </span>
+          </h1>
+          
+          <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
+            Honoring high school students who actively arrange meetings with and learn from technology professionals.
+          </p>
+
+          <p className="text-lg mb-8 text-blue-200 max-w-2xl mx-auto">
+            Hosted by the Lansing ACM-W Chapter in collaboration with NCWIT
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <a href="#application" className="btn-primary text-lg px-10 py-5">
+              🎯 Apply for TEA
+            </a>
+            <a href="#about" className="btn-secondary text-lg">
+              Learn More
+            </a>
+          </div>
+
+          <nav className="flex flex-wrap justify-center gap-6 mb-8">
+            <a href="#about" className="text-white/80 hover:text-white transition-colors text-sm font-medium">About</a>
+            <a href="#timeline" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Timeline</a>
+            <a href="#application" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Apply</a>
+            <a href="#faq" className="text-white/80 hover:text-white transition-colors text-sm font-medium">FAQ</a>
+          </nav>
+
+          <div className="hero-card max-w-md mx-auto">
+            <h3 className="text-slate-900 font-bold text-lg mb-4">📋 What You'll Do</h3>
+            <div className="space-y-3 text-slate-700">
+              <div className="flex items-start gap-3">
+                <span className="text-green-600 mt-1">✓</span>
+                <span className="text-sm">Interview technology practitioners</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-green-600 mt-1">✓</span>
+                <span className="text-sm">Explore diverse tech career paths</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-green-600 mt-1">✓</span>
+                <span className="text-sm">Submit reflection portfolio</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-green-600 mt-1">✓</span>
+                <span className="text-sm">Receive recognition award</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )

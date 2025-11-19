@@ -8,6 +8,7 @@ Quick start
 
 ```bash
 cd /path/to/Michigan-TEA
+cd frontend
 npm install
 ```
 
@@ -22,6 +23,12 @@ Notes & next steps
 - The submission endpoint writes to `data/submissions.json` on the local filesystem. For production, replace this with a Google Form, Airtable, or a secure database / Google Sheets integration.
 - Customize wording, dates, contacts, and styles to match Michigan ACM-W branding.
 - To add accessibility and tests, add unit tests and improve semantic markup.
+
+Images and photos
+
+- The site currently uses Unsplash placeholder images for student/event photos. For production, replace these with photos you have permission to use (ACM‑W chapter photos).
+- Add photos to `frontend/public/images/` and reference them from components (recommended). Example: `public/images/chapter-1.jpg` then in code use `/images/chapter-1.jpg` as the image src.
+
 
 Files added
 
