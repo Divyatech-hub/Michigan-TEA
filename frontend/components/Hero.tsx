@@ -35,34 +35,6 @@ export default function Hero() {
             </a>
           </div>
 
-          <nav className="flex flex-wrap justify-center gap-6 mb-8">
-            <a href="#about" className="text-white/80 hover:text-white transition-colors text-sm font-medium">About</a>
-            <a href="#timeline" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Timeline</a>
-            <a href="#application" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Apply</a>
-            <a href="#faq" className="text-white/80 hover:text-white transition-colors text-sm font-medium">FAQ</a>
-          </nav>
-
-          <div className="hero-card max-w-md mx-auto">
-            <h3 className="text-slate-900 font-bold text-lg mb-4">📋 What You'll Do</h3>
-            <div className="space-y-3 text-slate-700">
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 mt-1">✓</span>
-                <span className="text-sm">Interview technology practitioners</span>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 mt-1">✓</span>
-                <span className="text-sm">Explore diverse tech career paths</span>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 mt-1">✓</span>
-                <span className="text-sm">Submit reflection portfolio</span>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 mt-1">✓</span>
-                <span className="text-sm">Receive recognition award</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

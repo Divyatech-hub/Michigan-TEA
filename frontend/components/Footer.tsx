@@ -11,7 +11,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-2 text-blue-200">
               <span>🏢</span>
-              <span className="text-sm">ACM‑W Michigan • NCWIT Michigan</span>
+              <span className="text-sm">Lansing ACM-W • NCWIT Michigan</span>
             </div>
           </div>
 
