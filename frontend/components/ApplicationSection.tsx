@@ -82,9 +82,14 @@ export default function ApplicationSection(){
             >
               📄 Download Practitioner Letter
             </a>
-            <button className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition duration-300 font-semibold">
+            <a 
+              href="/resources"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition duration-300 font-semibold"
+            >
               📚 View Resources
-            </button>
+            </a>
           </div>
         </div>
       </div>

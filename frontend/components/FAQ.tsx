@@ -49,7 +49,7 @@ export default function FAQ(){
               )}
             </p>
           </div>
-        ))}
+        ))}  
       </div>
     </section>
   )
