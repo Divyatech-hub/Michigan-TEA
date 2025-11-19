@@ -8,7 +8,6 @@ Quick start
 
 ```bash
 cd /path/to/Michigan-TEA
-cd frontend
 npm install
 ```
 

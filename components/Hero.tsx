@@ -1,10 +1,8 @@
-import Image from 'next/image'
-
 export default function Hero() {
   return (
     <section className="relative mb-12 w-full overflow-hidden">
       <div className="absolute inset-0">
-        <Image src="/HSPC2025 - 18 of 41.jpeg" alt="HSPC 2025 participants" fill style={{objectFit: 'cover'}} priority />
+        <img src="/Michigan-TEA/HSPC2025 - 18 of 41.jpeg" alt="HSPC 2025 participants" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-purple-800/70 to-teal-700/60" />
       </div>
 

@@ -8,7 +8,7 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   basePath: '/Michigan-TEA',
-  assetPrefix: '/Michigan-TEA',
+  assetPrefix: '/Michigan-TEA/',
 }
 
 module.exports = nextConfig
