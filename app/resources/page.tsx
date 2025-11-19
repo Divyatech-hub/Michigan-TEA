@@ -5,7 +5,7 @@ export default function Resources() {
       <div className="w-full bg-white/90 backdrop-blur-xl border-b border-white/20 shadow-sm py-4">
         <div className="max-w-7xl mx-auto px-6">
           <a 
-            href="/" 
+            href="/Michigan-TEA/" 
             className="inline-flex items-center gap-2 text-slate-600 hover:text-slate-900 transition-colors"
           >
             ← Back to Michigan TEA Home

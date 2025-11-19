@@ -1,6 +1,6 @@
 1:HL["/Michigan-TEA/_next/static/css/d5269e36edfe64b3.css",{"as":"style"}]
-0:["ygQBaSYcljc-Y2oD6m26n",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/Michigan-TEA/_next/static/css/d5269e36edfe64b3.css","precedence":"next"}]],["$L3",null]]]]]
-4:I{"id":7477,"chunks":["477:static/chunks/477-038547502e063ffd.js","160:static/chunks/app/not-found-38e5c601b77ec6ec.js"],"name":"","async":false}
+0:["cnVoSpdcDr8wSsLzoEJoF",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/Michigan-TEA/_next/static/css/d5269e36edfe64b3.css","precedence":"next"}]],["$L3",null]]]]]
+4:I{"id":7477,"chunks":["477:static/chunks/477-038547502e063ffd.js","185:static/chunks/app/layout-5ecff73afd5d77a1.js"],"name":"","async":false}
 5:I{"id":3211,"chunks":["272:static/chunks/webpack-1254b29994e0f1f4.js","253:static/chunks/bce60fc1-5dbc0e295fd1bc4d.js","769:static/chunks/769-58874883c886af0b.js"],"name":"default","async":false}
 6:I{"id":7929,"chunks":["477:static/chunks/477-038547502e063ffd.js","601:static/chunks/app/error-1a4a49720adcd29d.js"],"name":"","async":false}
 7:I{"id":5767,"chunks":["272:static/chunks/webpack-1254b29994e0f1f4.js","253:static/chunks/bce60fc1-5dbc0e295fd1bc4d.js","769:static/chunks/769-58874883c886af0b.js"],"name":"default","async":false}
