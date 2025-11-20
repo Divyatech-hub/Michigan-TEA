@@ -11,7 +11,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-2 text-blue-200">
               <span>🏢</span>
-              <span className="text-sm">Lansing ACM-W • NCWIT Michigan</span>
+              <span className="text-sm">Lansing ACM-W • NCWIT Michigan • AiC</span>
             </div>
           </div>
 
@@ -20,7 +20,7 @@ export default function Footer() {
             <ul className="space-y-2 text-blue-100">
               <li><a href="#about" className="hover:text-white transition-colors">→ About TEA</a></li>
               <li><a href="#timeline" className="hover:text-white transition-colors">→ Timeline</a></li>
-              <li><a href="#gallery" className="hover:text-white transition-colors">→ Student Gallery</a></li>
+              {/* <li><a href="#gallery" className="hover:text-white transition-colors">→ Student Gallery</a></li> */}
               <li><a href="#apply" className="hover:text-white transition-colors">→ Apply Now</a></li>
             </ul>
           </div>
@@ -36,9 +36,9 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <span>📸</span>
-                <a href="mailto:lan.acmw.chapter@gmail.com?subject=Michigan TEA Photos" className="hover:text-white transition-colors">
+                {/* <a href="mailto:lan.acmw.chapter@gmail.com?subject=Michigan TEA Photos" className="hover:text-white transition-colors">
                   Submit Photos
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
