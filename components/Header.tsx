@@ -21,7 +21,7 @@ export default function Header() {
             <Link href="#about" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">About</Link>
             <Link href="#timeline" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Timeline</Link>
             <Link href="#faq" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">FAQ</Link>
-            <Link href="/resources" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Resources</Link>
+            <Link href="/Michigan-TEA/resources" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Resources</Link>
             <Link href="#application" className="btn-primary text-sm px-8 py-3">Apply Now</Link>
           </nav>
         </div>

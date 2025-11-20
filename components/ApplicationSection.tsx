@@ -83,7 +83,7 @@ export default function ApplicationSection(){
               📄 Download Practitioner Letter
             </a>
             <a 
-              href="/resources"
+              href="/Michigan-TEA/resources"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition duration-300 font-semibold"
