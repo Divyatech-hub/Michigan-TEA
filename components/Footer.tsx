@@ -35,8 +35,8 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <span>📸</span>
-                {/* <a href="mailto:lan.acmw.chapter@gmail.com?subject=Michigan TEA Photos" className="hover:text-white transition-colors">
+                {/* <span></span>
+                <a href="mailto:lan.acmw.chapter@gmail.com?subject=Michigan TEA Photos" className="hover:text-white transition-colors">
                   Submit Photos
                 </a> */}
               </div>
