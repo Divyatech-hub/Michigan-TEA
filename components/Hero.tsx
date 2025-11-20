@@ -25,8 +25,8 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <a href="#application" className="btn-primary text-lg px-10 py-5">
-              🎯 Apply for TEA
+            <a href="https://forms.gle/v4VSxvQbq3cczt86A" className="btn-primary text-lg px-10 py-5">
+              🎯 Register Interest
             </a>
             <a href="#about" className="btn-secondary text-lg">
               Learn More

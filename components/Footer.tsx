@@ -21,7 +21,7 @@ export default function Footer() {
               <li><a href="#about" className="hover:text-white transition-colors">→ About TEA</a></li>
               <li><a href="#timeline" className="hover:text-white transition-colors">→ Timeline</a></li>
               {/* <li><a href="#gallery" className="hover:text-white transition-colors">→ Student Gallery</a></li> */}
-              <li><a href="#apply" className="hover:text-white transition-colors">→ Apply Now</a></li>
+              <li><a href="https://forms.gle/v4VSxvQbq3cczt86A" className="hover:text-white transition-colors">→ Register Interest</a></li>
             </ul>
           </div>
 
