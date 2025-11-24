@@ -15,7 +15,7 @@ export default function Timeline() {
     { 
       date: 'Mar 15, 2026', 
       title: '⏰ Submissions Close', 
-      desc: 'All reflections due by 11:50 pm EST',
+      desc: 'All reflections due by 11:59 pm EST',
       status: 'upcoming'
     },
     { 
