@@ -11,42 +11,50 @@ export default function ApplicationSection(){
 
         <div className="space-y-8 mb-8">
           <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">1. 📞 Request an Interview</h3>
+            <h3 className="text-xl font-bold text-slate-900 mb-4">1. 📝 Register Interest</h3>
             <ul className="text-left text-slate-700 space-y-2">
-              <li>• Directly request an interview with a technology practitioner</li>
-              <li>• Send the practitioner a link to the MI TEA Practitioner Letter</li>
-              <li>• An eligible practitioner cannot be a family member</li>
-              <li>• A maximum of two practitioners may work for the same company</li>
+              <li>• Complete the <a href="https://forms.gle/v4VSxvQbq3cczt86A" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">MI TEA Registration form</a></li>
             </ul>
           </div>
 
           <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">2. 💬 Conduct the Interview</h3>
+            <h3 className="text-xl font-bold text-slate-900 mb-4">2. 📞 Request Interviews</h3>
             <ul className="text-left text-slate-700 space-y-2">
-              <li>• Ask about their job and career path</li>
-              <li>• Request career or life advice</li>
-              <li>• Ask at least one additional question of interest to you</li>
-              <li>• Interview should take 45-60 minutes</li>
+              <li>• Directly request interviews with technology professionals</li>
+              <li>• Send the professionals a link to the MI TEA Practitioner Letter</li>
+              <li>• Eligible professionals cannot be a family member and will have worked in the technology sector for at least 2 years</li>
+              <li>• No more than 2 professionals interviewed may work for the same company</li>
             </ul>
           </div>
 
           <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">3. 📧 Follow Up</h3>
+            <h3 className="text-xl font-bold text-slate-900 mb-4">3. 💬 Conduct the Interviews</h3>
             <ul className="text-left text-slate-700 space-y-2">
-              <li>• Send a thank-you email highlighting benefits gained from the interview</li>
-              <li>• Email the practitioner the MI TEA Award announcement when released in March</li>
-              <li>• Include information about the award ceremony</li>
+              <li>• Ask about professionals' job and career paths</li>
+              <li>• Request career or life advice</li>
+              <li>• Ask at least one additional question of interest to you</li>
+              <li>• Interviews should take 45-60 minutes</li>
             </ul>
           </div>
 
           <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">4. ✍️ Submit Your Reflection</h3>
-            <p className="text-slate-700 mb-3">Write a reflection including:</p>
+            <h3 className="text-xl font-bold text-slate-900 mb-4">4. ✍️ Write and Submit Your Reflections</h3>
+            <p className="text-slate-700 mb-3">Write reflections that include:</p>
             <ul className="text-left text-slate-700 space-y-2">
               <li>• Details about the practitioner's role and organization (minimum 250 words)</li>
-              <li>• Description of the practitioner's career path (minimum 150 words)</li>
-              <li>• Career or life advice offered (minimum 100 words)</li>
-              <li>• Statement documenting any use of generative AI for minor editing support only</li>
+              <li>• A description of the practitioner's career path (minimum 150 words)</li>
+              <li>• Any career or life advice offered and answers to other questions you asked them (minimum 100 words)</li>
+              <li>• A statement documenting any use of generative AI for minor editing support only, not for generating ideas, content, or descriptions of the interview itself</li>
+            </ul>
+            <p className="text-slate-700 mt-3 font-medium">Fill out and submit your TEA Reflection Reports by March 15</p>
+          </div>
+
+          <div className="bg-gradient-to-br from-rose-50 to-red-50 rounded-2xl p-6">
+            <h3 className="text-xl font-bold text-slate-900 mb-4">5. 📧 Follow Up</h3>
+            <ul className="text-left text-slate-700 space-y-2">
+              <li>• Within 24 hours of the interview, send a thank-you email highlighting the benefits gained from the interview</li>
+              <li>• Send the MI TEA Award announcement to professionals when it's released in March</li>
+              <li>• Inform professionals that they are invited to the award ceremony in April</li>
             </ul>
           </div>
         </div>
