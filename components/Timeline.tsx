@@ -3,7 +3,7 @@ export default function Timeline() {
     { 
       date: 'Nov 24, 2025', 
       title: '📺 Info Session (Webinar)', 
-      desc: 'Recorded session - join live for Q&A',
+      desc: 'Register interest by 5 PM EST on Monday, Nov 24 to join live session (will be recorded for later viewing)',
       status: 'completed'
     },
     { 
