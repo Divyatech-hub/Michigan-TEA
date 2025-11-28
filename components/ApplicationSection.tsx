@@ -10,53 +10,70 @@ export default function ApplicationSection(){
         </div>
 
         <div className="space-y-8 mb-8">
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">1. 📝 Register Interest</h3>
-            <ul className="text-left text-slate-700 space-y-2">
-              <li>• Complete the <a href="https://forms.gle/v4VSxvQbq3cczt86A" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">MI TEA Registration form</a></li>
+          <details className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-6 cursor-pointer group">
+            <summary className="text-xl font-bold text-slate-900 mb-4 cursor-pointer list-none flex items-center">
+              <span className="mr-4 text-3xl font-bold text-blue-600 transition-transform duration-200 group-open:rotate-45">+</span>
+              <span>1. 📝 Register Interest</span>
+            </summary>
+            <ul className="text-left text-slate-700 space-y-2 mt-4">
+              <li>Complete the <a href="https://forms.gle/v4VSxvQbq3cczt86A" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">MI TEA Registration form</a></li>
             </ul>
-          </div>
+          </details>
 
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">2. 📞 Request Interviews</h3>
-            <ul className="text-left text-slate-700 space-y-2">
+          <details className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-6 cursor-pointer group">
+            <summary className="text-xl font-bold text-slate-900 mb-4 cursor-pointer list-none flex items-center">
+              <span className="mr-4 text-3xl font-bold text-blue-600 transition-transform duration-200 group-open:rotate-45">+</span>
+              <span>2. 📞 Request Interviews</span>
+            </summary>
+            <ul className="text-left text-slate-700 space-y-2 mt-4">
               <li>• Directly request interviews with technology professionals</li>
               <li>• Send the professionals a link to the <a href="/Michigan-TEA/practitioner_letter.pdf" className="text-blue-600 hover:text-blue-800 underline">MI TEA Practitioner Letter</a></li>
               <li>• Eligible professionals cannot be a family member and will have worked in the technology sector for at least 2 years</li>
               <li>• No more than 2 professionals interviewed may work for the same company</li>
             </ul>
-          </div>
+          </details>
 
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">3. 💬 Conduct the Interviews</h3>
-            <ul className="text-left text-slate-700 space-y-2">
+          <details className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-6 cursor-pointer group">
+            <summary className="text-xl font-bold text-slate-900 mb-4 cursor-pointer list-none flex items-center">
+              <span className="mr-4 text-3xl font-bold text-blue-600 transition-transform duration-200 group-open:rotate-45">+</span>
+              <span>3. 💬 Conduct the Interviews</span>
+            </summary>
+            <ul className="text-left text-slate-700 space-y-2 mt-4">
               <li>• Ask about professionals' job and career paths</li>
               <li>• Request career or life advice</li>
               <li>• Ask at least one additional question of interest to you</li>
               <li>• Interviews should take 45-60 minutes</li>
             </ul>
-          </div>
+          </details>
 
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">4. ✍️ Write and Submit Your Reflections</h3>
-            <p className="text-slate-700 mb-3">Write reflections that include:</p>
-            <ul className="text-left text-slate-700 space-y-2">
-              <li>• Details about the practitioner's role and organization (minimum 250 words)</li>
-              <li>• A description of the practitioner's career path (minimum 150 words)</li>
-              <li>• Any career or life advice offered and answers to other questions you asked them (minimum 100 words)</li>
-              <li>• A statement documenting any use of generative AI for minor editing support only, not for generating ideas, content, or descriptions of the interview itself</li>
-            </ul>
-            <p className="text-slate-700 mt-3 font-medium">Fill out and submit your <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtFaY-QwaJpO6MCgeo22KIgbLTKegxCbNuSm-QWXU65BOofQ/viewform?pli=1">TEA Reflection Reports</a> by March 15</p>
-          </div>
+          <details className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 cursor-pointer group">
+            <summary className="text-xl font-bold text-slate-900 mb-4 cursor-pointer list-none flex items-center">
+              <span className="mr-4 text-3xl font-bold text-blue-600 transition-transform duration-200 group-open:rotate-45">+</span>
+              <span>4. ✍️ Write and Submit Your Reflections</span>
+            </summary>
+            <div className="mt-4">
+              <p className="text-slate-700 mb-3">Write reflections that include:</p>
+              <ul className="text-left text-slate-700 space-y-2">
+                <li>• Details about the practitioner's role and organization (minimum 250 words)</li>
+                <li>• A description of the practitioner's career path (minimum 150 words)</li>
+                <li>• Any career or life advice offered and answers to other questions you asked them (minimum 100 words)</li>
+                <li>• A statement documenting any use of generative AI for minor editing support only, not for generating ideas, content, or descriptions of the interview itself</li>
+              </ul>
+              <p className="text-slate-700 mt-3 font-medium">Fill out and submit your <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtFaY-QwaJpO6MCgeo22KIgbLTKegxCbNuSm-QWXU65BOofQ/viewform?pli=1" className="text-blue-600 hover:text-blue-800 underline">TEA Reflection Reports</a> by March 15</p>
+            </div>
+          </details>
 
-          <div className="bg-gradient-to-br from-rose-50 to-red-50 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">5. 📧 Follow Up</h3>
-            <ul className="text-left text-slate-700 space-y-2">
+          <details className="bg-gradient-to-br from-rose-50 to-red-50 rounded-2xl p-6 cursor-pointer group">
+            <summary className="text-xl font-bold text-slate-900 mb-4 cursor-pointer list-none flex items-center">
+              <span className="mr-4 text-3xl font-bold text-blue-600 transition-transform duration-200 group-open:rotate-45">+</span>
+              <span>5. 📧 Follow Up</span>
+            </summary>
+            <ul className="text-left text-slate-700 space-y-2 mt-4">
               <li>• Within 24 hours of the interview, send a thank-you email highlighting the benefits gained from the interview</li>
               <li>• Send the MI TEA Award announcement to professionals when it's released in March</li>
               <li>• Inform professionals that they are invited to the award ceremony in April</li>
             </ul>
-          </div>
+          </details>
         </div>
 
         <div className="bg-white rounded-2xl p-8 border border-slate-200 mb-8">

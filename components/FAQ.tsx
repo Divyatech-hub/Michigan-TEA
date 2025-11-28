@@ -39,16 +39,19 @@ export default function FAQ(){
       
       <div className="grid gap-6">
         {faqs.map((faq, idx) => (
-          <div key={idx} className="bg-gradient-to-r from-slate-50 to-blue-50 rounded-2xl p-6 border border-slate-200">
-            <h3 className="text-lg font-bold text-slate-900 mb-3">{faq.q}</h3>
-            <p className="text-slate-700 leading-relaxed">
+          <details key={idx} className="bg-gradient-to-r from-slate-50 to-blue-50 rounded-2xl p-6 border border-slate-200 cursor-pointer group">
+            <summary className="text-lg font-bold text-slate-900 mb-3 cursor-pointer list-none flex items-center">
+              <span className="mr-4 text-3xl font-bold text-blue-600 transition-transform duration-200 group-open:rotate-45">+</span>
+              <span>{faq.q}</span>
+            </summary>
+            <p className="text-slate-700 leading-relaxed mt-3">
               {idx === 0 ? (
                 <>Students in grades 9-12 who live in Michigan and are registered members of the <a href="https://www.aspirations.org/get-involved/join-the-aic-community" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Aspirations in Computing (AiC) Community</a>.</>
               ) : (
                 faq.a
               )}
             </p>
-          </div>
+          </details>
         ))}  
       </div>
     </section>
