@@ -90,6 +90,14 @@ export default function ApplicationSection(){
             >
               📄 Download Practitioner Letter
             </a>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdtFaY-QwaJpO6MCgeo22KIgbLTKegxCbNuSm-QWXU65BOofQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition duration-300 font-semibold"
+            >
+              📝 TEA Reflection Reports
+            </a>
             <a 
               href="/Michigan-TEA/resources"
               target="_blank"
