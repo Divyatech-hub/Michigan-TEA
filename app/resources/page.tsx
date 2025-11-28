@@ -180,7 +180,7 @@ export default function Resources() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-4">
                   <p className="text-slate-700">
-                    <strong>Reminder:</strong> a link to this practitioner letter must be sent to technology practitioners upon first reaching 
+                    <strong>Reminder:</strong> a link to <a href="/Michigan-TEA/practitioner_letter.pdf" className="text-blue-600 hover:text-blue-800 underline">this practitioner letter</a> must be sent to technology practitioners upon first reaching 
                     out to them in order to provide more information about the award
                   </p>
                 </div>

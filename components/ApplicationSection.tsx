@@ -21,7 +21,7 @@ export default function ApplicationSection(){
             <h3 className="text-xl font-bold text-slate-900 mb-4">2. 📞 Request Interviews</h3>
             <ul className="text-left text-slate-700 space-y-2">
               <li>• Directly request interviews with technology professionals</li>
-              <li>• Send the professionals a link to the MI TEA Practitioner Letter</li>
+              <li>• Send the professionals a link to the <a href="/Michigan-TEA/practitioner_letter.pdf" className="text-blue-600 hover:text-blue-800 underline">MI TEA Practitioner Letter</a></li>
               <li>• Eligible professionals cannot be a family member and will have worked in the technology sector for at least 2 years</li>
               <li>• No more than 2 professionals interviewed may work for the same company</li>
             </ul>
@@ -46,7 +46,7 @@ export default function ApplicationSection(){
               <li>• Any career or life advice offered and answers to other questions you asked them (minimum 100 words)</li>
               <li>• A statement documenting any use of generative AI for minor editing support only, not for generating ideas, content, or descriptions of the interview itself</li>
             </ul>
-            <p className="text-slate-700 mt-3 font-medium">Fill out and submit your TEA Reflection Reports by March 15</p>
+            <p className="text-slate-700 mt-3 font-medium">Fill out and submit your <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtFaY-QwaJpO6MCgeo22KIgbLTKegxCbNuSm-QWXU65BOofQ/viewform?pli=1">TEA Reflection Reports</a> by March 15</p>
           </div>
 
           <div className="bg-gradient-to-br from-rose-50 to-red-50 rounded-2xl p-6">
