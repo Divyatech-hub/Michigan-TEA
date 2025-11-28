@@ -8,7 +8,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-4">
             <div className="relative w-12 h-12 rounded-2xl overflow-hidden ring-2 ring-gradient-to-r from-blue-500 to-purple-500 p-0.5">
               <div className="w-full h-full rounded-2xl overflow-hidden bg-white flex items-center justify-center">
-                <img src="/Michigan-TEA/acm-w_logo.jpg" alt="ACM-W Michigan Logo" className="w-full h-full object-contain p-1" />
+                <img src="/Michigan-TEA/lan-acmw-logo-final.png" alt="ACM-W Michigan Logo" className="w-full h-full object-contain p-1" />
               </div>
             </div>
             <div>
