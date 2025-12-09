@@ -16,7 +16,7 @@ export default function Timeline() {
       date: 'Mar 15, 2026', 
       title: '⏰ Submissions Close', 
       desc: 'All reflections due by 11:59 pm EST',
-      status: 'upcoming'
+      status: 'deadline'
     },
     { 
       date: 'Mar 30, 2026', 
@@ -45,6 +45,7 @@ export default function Timeline() {
             completed: 'bg-green-100 border-green-300 text-green-800',
             active: 'bg-purple-100 border-purple-300 text-purple-800',
             upcoming: 'bg-yellow-100 border-yellow-300 text-yellow-800',
+            deadline: 'bg-sky-100 border-sky-300 text-sky-800',
             future: 'bg-slate-100 border-slate-300 text-slate-600'
           }
           
