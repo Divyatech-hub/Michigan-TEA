@@ -18,10 +18,11 @@ export default function Header() {
           </Link>
 
           <nav className="flex items-center gap-12">
-            <Link href="#about" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">About</Link>
-            <Link href="#timeline" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Timeline</Link>
-            <Link href="#faq" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">FAQ</Link>
-            <Link href="/resources" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Resources</Link>
+            <Link href="/#about" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">About</Link>
+            <Link href="/#timeline" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Timeline</Link>
+            <Link href="/#application" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">How to Qualify</Link>
+            <Link href="/#faq" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">FAQ</Link>
+            <Link href="/resources" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Resources</Link>
             <Link href="https://forms.gle/v4VSxvQbq3cczt86A" className="btn-primary text-sm px-8 py-3">Register Interest</Link>
           </nav>
         </div>

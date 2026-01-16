@@ -3,7 +3,7 @@ export default function ApplicationSection(){
     <section id="application" className="w-full">
       <div className="bg-gradient-to-br from-white to-blue-50 rounded-3xl p-8 md:p-12 border border-blue-100 shadow-xl">
         <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold heading-gradient mb-4">📋 Application Rules</h2>
+          <h2 className="text-4xl font-bold heading-gradient mb-4">📋 How to Qualify</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             To receive an MI TEA, you must complete the following steps with at least 5 technology practitioners between November 25, 2025, and March 15, 2026.
           </p>
