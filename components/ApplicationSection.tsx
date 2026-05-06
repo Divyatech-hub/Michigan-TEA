@@ -78,12 +78,11 @@ export default function ApplicationSection(){
 
         <div className="bg-white rounded-2xl p-8 border border-slate-200 mb-8">
           <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center">🏆 Rewards</h3>
-          <p className="text-slate-700 mb-4 text-center max-w-3xl mx-auto">
-            Each award recipient will be publicly recognized on April 18 at the 2026 MI Aspirations in Computing Awards ceremony, 
-            where they will receive a MI TEA Award certificate and medal. Recipients will also be eligible for prizes donated by sponsors.
-          </p>
+            <p className="text-slate-700 mb-4 text-center max-w-3xl mx-auto">
+              Each award recipient will be publicly recognized in April 18 at the 2026 MI Aspirations in Computing Awards ceremony and presented with a personalized award (medal or trophy).
+            </p>
           <p className="text-slate-600 text-center text-sm">
-            A MI TEA Award certificate and medal will be mailed to recipients who cannot attend the ceremony in April.
+              The award will be mailed to recipients who cannot attend the ceremony on April 18.
           </p>
         </div>
 

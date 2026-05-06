@@ -19,6 +19,9 @@ export default function Home() {
               <p className="text-lg text-slate-600 max-w-4xl mx-auto mt-4">
                 Hosted by the <a href="https://www.linkedin.com/company/109011307" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Lansing ACM-W Chapter</a>, MI TEA is modeled after and offered in collaboration with the <a href="https://mntech.org/technology-exploration-award/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Minnesota Aspirations in Computing Technology Exploration Award</a> and the <a href="https://www.aspirations.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">NCWIT Aspirations in Computing Awards</a>.
               </p>
+                <p className="text-lg text-slate-600 max-w-4xl mx-auto mt-4">
+                  Congratulations to Anahita M. and Aranza Z for completing the TEA Challenge and winning 2026 Michigan Technology Exploration Awards!
+                </p>
             </div>
             
             <div className="grid md:grid-cols-2 gap-8">

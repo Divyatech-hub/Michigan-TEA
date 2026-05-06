@@ -26,7 +26,7 @@ export default function FAQ(){
     },
     { 
       q: '🏆 What do award recipients receive?', 
-      a: 'Recipients will be publicly recognized at the 2026 MI Aspirations in Computing Awards ceremony on April 18, where they will receive a MI TEA Award certificate and medal. They will also be eligible for prizes donated by sponsors. Certificates and medals will be mailed to those who cannot attend.' 
+      a: 'Award recipients will be publicly recognized in April 18 at the 2026 MI Aspirations in Computing Awards ceremony and presented with a personalized award (medal or trophy). The award will be mailed to recipients who cannot attend the ceremony on April 18.' 
     },
   ]
 
